@@ -1,8 +1,8 @@
-@-moz-viewport { width: device-width; scale: 1;}
-@-ms-viewport { width: device-width; scale: 1;}
-@-o-viewport { width: device-width; scale: 1;}
-@-webkit-viewport { width: device-width; scale: 1;}
-@viewport { width: device-width; scale: 1;}
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
 
 html {
   -moz-text-size-adjust: 100%;
@@ -22,7 +22,6 @@ body {
   box-sizing: inherit;
 }
 
-
 img {
   width: 100%;
   display: block;
@@ -30,6 +29,7 @@ img {
 }
 
 @media only screen and (min-width: 25em) {
+
   img {
     display: inline-block;
     width: 40%;
@@ -37,6 +37,7 @@ img {
 }
 
 @media only screen and (min-width: 38em) {
+
   img {
     display: inline-block;
     width: 30%;
@@ -44,8 +45,9 @@ img {
 }
 
 @media only screen and (min-width: 60em) {
+
   img {
     display: inline-block;
-    width: 40%;
+    width: 20%;
   }
 }
